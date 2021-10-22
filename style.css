@@ -1,8 +1,28 @@
 .title {
 	text-align: center;
+	padding: 3px;
+	font-size: 20px;
+	background-color: rgb(201, 201, 201);
+}
+
+.menuBar {
+	text-align: center;
+	background-color: gray;
+	display: flex;
+}
+
+a {
+	padding: 10px;
+	background-color: inherit;
+}
+
+a:hover {
+	background-color: rgb(175, 175, 175);
 }
 
 body {
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: bolder;
+	margin: 0px;
+	background-color: rgb(233, 233, 233);
 }
