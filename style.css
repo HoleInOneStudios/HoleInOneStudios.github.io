@@ -10,6 +10,15 @@
 	text-align: center;
 	background-color: gray;
 	height: fit-content;
+	top:0;
+	position: fixed;
+	width: 100%;
+}
+
+#footerBar {
+	text-align: center;
+	background-color: gray;
+	height: fit-content;
 }
 
 a {
