@@ -1,19 +1,21 @@
 .title {
 	text-align: center;
 	padding: 3px;
-	font-size: 20px;
+	font-size: 300% auto;
 	background-color: rgb(201, 201, 201);
 }
 
 .menuBar {
 	text-align: center;
 	background-color: gray;
-	display: flex;
+	height: fit-content;
 }
 
 a {
-	padding: 10px;
 	background-color: inherit;
+	font-size: 200% auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 a:hover {
