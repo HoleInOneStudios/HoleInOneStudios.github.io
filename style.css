@@ -1,8 +1,33 @@
-#MainHeader {
-	text-align: center;
+body {
+	background-color: gray;
+
+	width: auto;
 }
 
-body {
-	margin: 0px;
-	padding: 0px;
+main {
+	box-shadow: 0rem 0rem 5rem 1rem;
+	background-color: white;
+
+	margin: auto;
+	width: 90%;
+}
+
+.mainHeader {
+	text-align: center;
+
+	padding: 5rem;
+}
+
+.mainNav {
+	display: flex;
+	background-color: paleturquoise;
+}
+
+.mainNav > a {
+	background-color: inherit;
+	padding: .5rem;
+}
+
+.mainNav > a:hover {
+	background-color: turquoise;
 }
