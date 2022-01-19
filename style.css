@@ -6,7 +6,6 @@ body {
 	font-size: 150%;
 
 	width: auto;
-
 }
 
 main {
@@ -32,6 +31,7 @@ main {
 	background-color: inherit;
 	color: rgb(216, 216, 216);
 	padding: .5rem;
+	text-decoration: none;
 }
 
 .mainNav > a:hover {
@@ -47,4 +47,15 @@ main {
 
 .mainContent {
 	min-height: 100vh;
+}
+
+.mainContent > div {
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
+	border-radius: 3px;
+}
+
+.mainContent > div > p {
+	text-align: left;
+	padding: 1fr;
 }
