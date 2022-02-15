@@ -1,1 +1,1 @@
-#NONE
+# Contributing guide
