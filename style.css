@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+
+    background-color: gainsboro;
+}
+
+h1 {
+    margin: auto;
+    padding: 5%;
+}
+
+.main_nav > ul {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: slategrey;
+}
+
+.main_nav > ul > li > a {
+    float: left;
+    padding: 1% 2%;
+    background-color: transparent;
+}
+
+.main_nav > ul > li > a:hover {
+    background-color: lightslategrey;
+}
+
+.main_nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    clear: both;
+}
