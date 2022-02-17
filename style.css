@@ -1,13 +1,23 @@
+:root {
+    --a: #6AB089;
+    --b: #77F7B0;
+    --c: #E8CEB0;
+    --d: #687DAB;
+    --e: #A1BCF7;
+}
+
 body {
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: var(--c)
 }
 
 header {
     margin: auto;
     text-align: center;
 
-    background-color: rgb(143, 216, 192);
+    background-color: var(--b);
 }
 
 h1 {
@@ -20,25 +30,33 @@ nav > ul {
     margin: 0%;
     padding: 0%;
     overflow: hidden;
+
     list-style-type: none;
-    background-color: cadetblue;
+    background-color: var(--a);
 }
 
 nav > ul > li > a {
     float: left;
     padding: 1% 2%;
+
+    color: black;
     background-color: transparent;
+    text-decoration: none;
 }
 
 nav > ul > li > a:hover {
-    background-color: rgb(81, 133, 134);
-}
-
-nav > ul > li > a {
-    text-decoration: none;
-    color: black;
+    background-color: #0000001a;
 }
 
 section {
     clear: both;
+    margin: 2% 1%;
+    padding: 0% 2%;
+
+    background-color: var(--e);
+    border: solid var(--d) 10px;
+}
+
+.disabled {
+    text-decoration: line-through;
 }
