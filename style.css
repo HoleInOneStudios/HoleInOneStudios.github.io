@@ -61,3 +61,16 @@ article {
 
   background-color: rgb(195, 224, 233);
 }
+
+
+.toTop {
+  position: fixed;
+  bottom: 0%;
+  left: 2%;
+  padding: 0% 1%;
+  background-color:rgb(127, 166, 201);
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  text-decoration: none;
+  color: black;
+}
