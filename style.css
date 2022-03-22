@@ -74,3 +74,8 @@ article {
   text-decoration: none;
   color: black;
 }
+
+.skipNav {
+  position: absolute;
+  top: -5%;
+}
