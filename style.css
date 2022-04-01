@@ -79,3 +79,23 @@ article {
   position: absolute;
   top: -5%;
 }
+
+.social > a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+
+  padding: .5rem;
+  background-color: gray;
+  border-radius: 10%;
+
+  width: 1rem;
+
+  transition: .2s all ease-in-out;
+}
+
+.social > a:hover {
+  background-color: rgb(146, 146, 146);
+
+  border-radius: 100%;
+}
