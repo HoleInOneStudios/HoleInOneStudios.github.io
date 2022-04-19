@@ -10,7 +10,7 @@ function handleSubmit(e) {
         const encryptedMessage = btoa(JSON.stringify(formProps));
         console.log(encryptedMessage);
 
-        window.open(`/VirtualCard?message=${encryptedMessage}&encrypt=true`);
+        window.open(`/Virtual-Card?message=${encryptedMessage}&encrypt=true`);
     }
     else {
         e.target.submit();
