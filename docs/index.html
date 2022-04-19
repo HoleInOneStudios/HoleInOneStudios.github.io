@@ -61,7 +61,7 @@
         <h3>Virtual Card</h3>
         <p>Generate a virtual card for any event for any person and send them the personalized URL.</p>
 
-        <form name="virtual card" target="_blank" action="/Virtual-Card">
+        <form id="virtual card" name="virtual card" onsubmit="handleSubmit(event)" target="_blank" action="/VirtualCard">
           <h4>Generator</h4>
           <br>
           <label for="vc_to">To:</label>
@@ -79,10 +79,10 @@
           <label for="vc_color">Color:</label>
           <input name="color" id="vc_color" type="color" value="#ffffff">
 
-          <!-- <label for="vc_encrypt">Encrypted:</label> -->
-          <!-- <input name="encrypt" id="vc_encrypt" type="checkbox" value="false"> -->
+          <label for="vc_encrypt">Encrypted:</label>
+          <input name="encrypt" id="vc_encrypt" type="checkbox" value="false">
 
-          <input id="vc_submit" type="submit" value="Generate">
+          <input id="vc_submit" value="Generate" type="submit">
         </form>
       </article>
     </section>
