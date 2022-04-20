@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="description" content="The home page of holeinonestudios">
-    <meta name="keywords" content="holeinonestudios FondueTimer MarchingBandSimulator">
+    <meta name="description" content="The home page of holeinonestudios" />
+    <meta
+      name="keywords"
+      content="holeinonestudios FondueTimer MarchingBandSimulator"
+    />
 
-    <link rel="shortcut icon" href="https://www.gravatar.com/avatar/585e7789850c948931b346e762ecafdf" type="image/png">
+    <link
+      rel="shortcut icon"
+      href="https://www.gravatar.com/avatar/585e7789850c948931b346e762ecafdf"
+      type="image/png"
+    />
 
     <style>
-      @import 'style.css';
-      @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
+      @import "style.css";
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
     </style>
 
     <script src="script.js"></script>
@@ -23,18 +28,19 @@
   </head>
 
   <body>
-    <a class="skipNav" href="#Projects">
-      Skip Navigation
-    </a>
+    <a class="skipNav" href="#Projects"> Skip Navigation </a>
 
     <header id="Home">
-      <img src="https://www.gravatar.com/avatar/585e7789850c948931b346e762ecafdf" />
+      <img
+        src="https://www.gravatar.com/avatar/585e7789850c948931b346e762ecafdf"
+      />
       <h1>HoleInOneStudios</h1>
     </header>
 
     <nav>
       <a href="#Home">Home</a>
       <a href="#Projects">Projects</a>
+      <a href="#Members">Members</a>
       <a href="#Social">Social</a>
     </nav>
 
@@ -42,68 +48,173 @@
       <h2>Projects</h2>
       <article title="Marching Band Simulator" id="mbs">
         <h3>Marching Band Simulator</h3>
-        <p>A web application to design and preview marching band drill on the field.</p>
-        <a class="link fa fa-globe" title="Web Version" href="https://holeinonestudios.org/MBS-Web/"></a>
-        <a class="link notCompleted fa fa-desktop" title="Desktop Version" href="" style="text-decoration: line-through underline;"></a>
-        <a class="link notCompleted fa fa-mobile" title="Mobile Version" href="" style="text-decoration: line-through underline;"></a>
-
+        <p>
+          A web application to design and preview marching band drill on the
+          field.
+        </p>
+        <a
+          class="link fa fa-globe"
+          title="Web Version"
+          href="https://holeinonestudios.org/MBS-Web/"
+        ></a>
+        <a
+          class="link notCompleted fa fa-desktop"
+          title="Desktop Version"
+          href=""
+          style="text-decoration: line-through underline"
+        ></a>
+        <a
+          class="link notCompleted fa fa-mobile"
+          title="Mobile Version"
+          href=""
+          style="text-decoration: line-through underline"
+        ></a>
       </article>
 
       <article title="Fondue Timer" id="ftimer">
         <h3>Fondue Timer</h3>
         <p>Simple webapp for timing fondue cooking</p>
-        <a class="link fa fa-globe" title="Web Version" href="https://holeinonestudios.org/Fondue-Timer/"></a>
-        <a class="link notCompleted fa fa-desktop" title="Desktop Version" href="" style="text-decoration: line-through underline;"></a>
-        <a class="link notCompleted fa fa-mobile" title="Mobile Version" href="" style="text-decoration: line-through underline;"></a>
+        <a
+          class="link fa fa-globe"
+          title="Web Version"
+          href="https://holeinonestudios.org/Fondue-Timer/"
+        ></a>
+        <a
+          class="link notCompleted fa fa-desktop"
+          title="Desktop Version"
+          href=""
+          style="text-decoration: line-through underline"
+        ></a>
+        <a
+          class="link notCompleted fa fa-mobile"
+          title="Mobile Version"
+          href=""
+          style="text-decoration: line-through underline"
+        ></a>
       </article>
 
       <article title="Virtual Card" id="virtualCard">
         <h3>Virtual Card</h3>
-        <p>Generate a virtual card for any event for any person and send them the personalized URL. You can also encrypt the URL using base64 by selecting the encrypt option in the form to hide the values of the card, so it can be more of a surprise.</p>
+        <p>
+          Generate a virtual card for any event for any person and send them the
+          personalized URL. You can also encrypt the URL using base64 by
+          selecting the encrypt option in the form to hide the values of the
+          card, so it can be more of a surprise.
+        </p>
 
-        <form id="virtual card" name="virtual card" onsubmit="handleSubmit(event)" target="_blank" action="/Virtual-Card">
+        <form
+          id="virtual card"
+          name="virtual card"
+          onsubmit="handleSubmit(event)"
+          target="_blank"
+          action="/Virtual-Card"
+        >
           <h4>Generator</h4>
-          <br>
+          <br />
           <label for="vc_to">To:</label>
-          <input name="to" id="vc_to" type="text" value="">
+          <input name="to" id="vc_to" type="text" value="" />
 
           <label for="vc_from">From:</label>
-          <input name="from" id="vc_from" type="text" value="">
+          <input name="from" id="vc_from" type="text" value="" />
 
           <label for="vc_occasion">Occasion:</label>
-          <input name="occasion" id="vc_occasion" type="text" value="">
+          <input name="occasion" id="vc_occasion" type="text" value="" />
 
           <label for="vc_note">Note:</label>
-          <input name="note" id="vc_note" type="text" value="">
+          <input name="note" id="vc_note" type="text" value="" />
 
           <label for="vc_color">Color:</label>
-          <input name="color" id="vc_color" type="color" value="#ffffff">
+          <input name="color" id="vc_color" type="color" value="#ffffff" />
 
           <label for="vc_encrypt">Encrypted:</label>
-          <input name="encrypt" id="vc_encrypt" type="checkbox" value="false">
+          <input name="encrypt" id="vc_encrypt" type="checkbox" value="false" />
 
-          <input id="vc_submit" value="Generate" type="submit">
+          <input id="vc_submit" value="Generate" type="submit" />
         </form>
+      </article>
+    </section>
+
+    <section title="Members" id="Members">
+      <h2>Members</h2>
+      <article class="members">
+        <div>
+          <img
+            src="https://www.gravatar.com/avatar/9489c0aa7caa38c13bda70cd1f33c59e"
+          />
+          <h3>Benjamin Bowles</h3>
+          <p>Owner</p>
+          <div>
+            <a
+              class="fa fa-github"
+              style="text-decoration: none; color: black"
+              href="https://github.com/holeinonegolfer"
+              target="_blank"
+            ></a>
+            <a
+              class="fa fa-twitter"
+              style="text-decoration: none; color: black"
+              href="https://twitter.com/BenjaminDavidB"
+              target="_blank"
+            ></a>
+            <a
+              class="fa fa-facebook"
+              style="text-decoration: none; color: black"
+              href="https://www.facebook.com/benjamin.bowles.96/"
+              target="_blank"
+            ></a>
+            <a
+              class="fa fa-instagram"
+              style="text-decoration: none; color: black"
+              href="https://www.instagram.com/bowles.benjamin/?hl=en"
+              target="_blank"
+            ></a>
+            <a
+              class="fa fa-envelope"
+              style="text-decoration: none; color: black"
+              href="mailto:owner@holeinonestudios.org"
+              target="_blank"
+            ></a>
+            <a
+              class="fa fa-youtube-play"
+              style="text-decoration: none; color: black"
+              href="https://youtube.com/channel/UCrMuHuxcCrDXHuxLeUWzBUA"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
       </article>
     </section>
 
     <section title="Social" id="Social">
       <h2>Social</h2>
       <article class="social">
-        <a class="fa fa-envelope link" target="_blank" title="Email" href="mailto:contact@holeinonestudios.org"></a>
-        <a class="fa fa-github link" target="_blank" title="Github" href="https://github.com/HoleInOneStudios"></a>
-        <a class="fa fa-youtube-play link" target="_blank" title="Youtube"
-          href="https://www.youtube.com/channel/UC7wtey1-SaLfEMhw3vxz9nQ"></a>
-        <a class="fa fa-facebook link" target="_blank" href="https://www.facebook.com/Holeinonestudios-103601695650966"></a>
+        <a
+          class="fa fa-envelope link"
+          target="_blank"
+          title="Email"
+          href="mailto:contact@holeinonestudios.org"
+        ></a>
+        <a
+          class="fa fa-github link"
+          target="_blank"
+          title="Github"
+          href="https://github.com/HoleInOneStudios"
+        ></a>
+        <a
+          class="fa fa-youtube-play link"
+          target="_blank"
+          title="Youtube"
+          href="https://www.youtube.com/channel/UC7wtey1-SaLfEMhw3vxz9nQ"
+        ></a>
+        <a
+          class="fa fa-facebook link"
+          target="_blank"
+          href="https://www.facebook.com/Holeinonestudios-103601695650966"
+        ></a>
         <!-- <a href="">Twitter</a> -->
       </article>
     </section>
 
-    <a class="toTop" href="#Home">
-      Top
-    </a>
-
-
+    <a class="toTop" href="#Home"> Top </a>
   </body>
-
 </html>

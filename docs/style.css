@@ -124,3 +124,28 @@ form > h4 {
 form > input {
   margin: 0.2rem;
 }
+
+.members {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.members > div {
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: solid;
+  border-radius: 10%;
+  border-color: rgb(127, 166, 201);
+}
+
+.members > div > img {
+  max-width: 100%;
+  max-height: 100%;
+}
