@@ -1,3 +1,3 @@
 # HoleInOneStudios.org
 
-The official Website of HolInOneStudios
+The official Website of HoleInOneStudios
