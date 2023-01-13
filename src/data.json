@@ -29,6 +29,7 @@
             "Description": "",
             "Image": "https://github.com/HoleInOneStudios/Fondue-Timer/blob/main/docs/rsc/icons8-fondue-96.png?raw=true",
             "Links": {
+                "Play Online": "https://holeinonestudios.org/Fondue-Timer/",
                 "Source Code": "https://github.com/HoleInOneStudios/Fondue-Timer"
             }
         },
@@ -37,6 +38,7 @@
             "Description": "",
             "Image": "https://github.com/HoleInOneStudios/MBS-Web/blob/main/docs/image/android-chrome-512x512.png?raw=true",
             "Links": {
+                "Play Online": "https://holeinonestudios.org/MBS-Web/",
                 "Source Code": "https://github.com/HoleInOneStudios/MBS-Web"
             }
         },
@@ -45,6 +47,7 @@
             "Description": "",
             "Image": "",
             "Links": {
+                "Play Online": "https://www.holeinonestudios.org/Virtual-Card",
                 "Source Code": "https://github.com/HoleInOneStudios/Virtual-Card"
             }
         },
