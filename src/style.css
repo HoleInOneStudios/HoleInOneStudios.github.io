@@ -55,24 +55,42 @@ hr {
 }
 
 .projectList {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    margin: 0 10vw;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
     justify-content: center;
+    align-items: center;
 }
 
 .project {
     border-radius: 10%;
-    border: solid 1pt #000000;
+    background-color: #efefef;
+    opacity: 0.9;
 
     box-sizing: border-box;
 
-    aspect-ratio: 1/1;
     padding: 1rem;
-    margin: 1vw;
+    aspect-ratio: 1/1; 
 
     transition: all 0.3s ease-in-out;
 }
 
 .project:hover {
-    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #ffffff;
+    scale: 1.1;
+    opacity: 0.8;
+}
+
+.project > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project > ul > li {
+    padding: 0.5rem;
 }
