@@ -1,26 +1,86 @@
 {
     "Projects": [
         {
-            "Title": "Project 1",
-            "Description": "Description 1",
-            "Image": "Image 1",
+            "Title": "Deeper and Deeper",
+            "Description": "",
+            "Image": "https://img.itch.zone/aW1nLzU4MDIzMzMucG5n/315x250%23c/qt%2FumP.png",
             "Links": {
-                "PC": "Link 1",
-                "Android": "Link 2",
-                "iOS": "Link 3",
-                "Source": "Link 4"
+                "Itch.io": "https://holeinonegolfer.itch.io/down-the-mineshaft"
             }
         },
         {
-            "Title": "Project 2",
-            "Description": "Description 2",
-            "Image": "Image 2",
+            "Title": "Phone Operator",
+            "Description": "",
+            "Image": "https://img.itch.zone/aW1nLzYxOTQwNjEucG5n/315x250%23c/BJAx9C.png",
             "Links": {
-                "PC": "Link 5",
-                "Android": "Link 6",
-                "iOS": "Link 7",
-                "Source": "Link 8"
+                "Itch.io": "https://holeinonegolfer.itch.io/phone-operator"
             }
+        },
+        {
+            "Title": "Quiz App",
+            "Description": "",
+            "Image": "https://github.com/HoleInOneStudios/Quiz-Server/blob/main/docs/images/icon.png?raw=true",
+            "Links": {
+                "Source Code": "https://github.com/HoleInOneStudios/Quiz-Server"
+            }
+        },
+        {
+            "Title": "Fondue Timer",
+            "Description": "",
+            "Image": "https://github.com/HoleInOneStudios/Fondue-Timer/blob/main/docs/rsc/icons8-fondue-96.png?raw=true",
+            "Links": {
+                "Source Code": "https://github.com/HoleInOneStudios/Fondue-Timer"
+            }
+        },
+        {
+            "Title": "Marching Band Simulator",
+            "Description": "",
+            "Image": "https://github.com/HoleInOneStudios/MBS-Web/blob/main/docs/image/android-chrome-512x512.png?raw=true",
+            "Links": {
+                "Source Code": "https://github.com/HoleInOneStudios/MBS-Web"
+            }
+        },
+        {
+            "Title": "Virtual Card",
+            "Description": "",
+            "Image": "",
+            "Links": {
+                "Source Code": "https://github.com/HoleInOneStudios/Virtual-Card"
+            }
+        },
+        {
+            "Title": "Around and Round",
+            "Description": "",
+            "Image": "https://img.itch.zone/aW1nLzY4MDI4MDQuanBn/315x250%23c/X%2FW770.jpg",
+            "Links": {
+                "Itch.io": "https://holeinonegolfer.itch.io/around-and-round"
+            }
+        },
+        {
+            "Title": "Dice Casino",
+            "Description": "",
+            "Image": "https://img.itch.zone/aW1nLzk0NjgwNTYucG5n/315x250%23c/%2Fsbs1H.png",
+            "Links": {
+                "Itch.io": "https://holeinonegolfer.itch.io/gmtk2022"
+            }
+        },
+        {
+            "Title": "Submarine Ocean Cleanup",
+            "Description": "",
+            "Image": "https://img.itch.zone/aW1nLzc0MTk3NzYucG5n/315x250%23c/P9X7Es.png",
+            "Links": {
+                "Itch.io": "https://holeinonegolfer.itch.io/submersed-ocean-cleanup"
+            }
+        }
+    ],
+    "Socials": [
+        {
+            "Name": "Itch.io",
+            "Link": "https://holeinonegolfer.itch.io/"
+        },
+        {
+            "Name": "GitHub",
+            "Link": "https://github.com/HoleInOneStudios"
         }
     ]
 }

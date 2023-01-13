@@ -18,13 +18,15 @@ async function loadProjects() {
         con.style.backgroundImage = `url(${project.Image})`;
         con.classList.add('project');
 
+        let inner = document.createElement('div');
+
         let title = document.createElement('h3');
         title.innerHTML = project.Title;
-        con.appendChild(title);
+        inner.appendChild(title);
 
         let desc = document.createElement('p');
         desc.innerHTML = project.Description;
-        con.appendChild(desc);
+        inner.appendChild(desc);
 
         let links = document.createElement('ul');
         Object.keys(project.Links).forEach(key => {
@@ -35,8 +37,9 @@ async function loadProjects() {
             li.appendChild(a);
             links.appendChild(li);
         });
-        con.appendChild(links);
+        inner.appendChild(links);
 
+        con.appendChild(inner);
         projectDOM.appendChild(con);
     });
 }
