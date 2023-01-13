@@ -105,7 +105,19 @@ hr {
 
 .project > div > ul > li {
     padding: 0.5rem;
+    background-color: #efefefcc;
+    border-radius: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.5rem;
+    margin: 0.25rem;
+
+    transition: all 0.3s ease-in-out;
 }
+
 
 .socialList {
     display: flex;

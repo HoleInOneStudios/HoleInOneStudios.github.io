@@ -15,6 +15,7 @@ async function loadProjects() {
     data.Projects.forEach(project => {
 
         let con = document.createElement('div');
+        con.title = project.Title;
         con.style.backgroundImage = `url(${project.Image})`;
         con.classList.add('project');
 
@@ -49,6 +50,7 @@ async function loadSocials() {
 
     Object.keys(data.Socials).forEach(key => {
         let a = document.createElement('a');
+        a.title = key;
         a.href = data.Socials[key];
         a.innerText = key;
         socialDOM.appendChild(a);
