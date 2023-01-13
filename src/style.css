@@ -106,3 +106,24 @@ hr {
 .project > div > ul > li {
     padding: 0.5rem;
 }
+
+.socialList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialList > a {
+    display: inline-block;
+    padding: 10px 20px;
+
+    border-radius: 15%;
+
+    color: #000000;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.socialList > a:hover {
+    box-shadow: 0 0 10px #000000;
+}

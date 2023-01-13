@@ -73,14 +73,9 @@
             }
         }
     ],
-    "Socials": [
-        {
-            "Name": "Itch.io",
-            "Link": "https://holeinonegolfer.itch.io/"
-        },
-        {
-            "Name": "GitHub",
-            "Link": "https://github.com/HoleInOneStudios"
-        }
-    ]
+    "Socials": {
+        "Itch.io": "https://holeinonegolfer.itch.io/",
+        "GitHub": "https://github.com/HoleInOneStudios",
+        "E-Mail": "hello@holeinonestudios.org"
+    }
 }

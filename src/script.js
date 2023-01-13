@@ -44,9 +44,21 @@ async function loadProjects() {
     });
 }
 
+async function loadSocials() {
+    let socialDOM = document.getElementById('socialList');
+
+    Object.keys(data.Socials).forEach(key => {
+        let a = document.createElement('a');
+        a.href = data.Socials[key];
+        a.innerText = key;
+        socialDOM.appendChild(a);
+    });
+}
+
 let data;
 document.body.onload = async () => {
     data = await loadData();
 
     loadProjects();
+    loadSocials();
 }
