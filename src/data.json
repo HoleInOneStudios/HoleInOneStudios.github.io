@@ -82,6 +82,15 @@
             "Links": {
                 "Itch.io": "https://holeinonegolfer.itch.io/flappy-porg"
             }
+        },
+        {
+            "Title": "Google Photo Slideshow",
+            "Description": "",
+            "Image": "",
+            "Links": {
+                "Play Online": "https://holeinonestudios.org/Google-Photos-Slideshow/",
+                "Source": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow"
+            }
         }
     ],
     "Socials": {
