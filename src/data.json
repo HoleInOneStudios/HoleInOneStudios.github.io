@@ -1,22 +1,6 @@
 {
     "Projects": [
         {
-            "Title": "Deeper and Deeper",
-            "Description": "",
-            "Image": "https://img.itch.zone/aW1nLzU4MDIzMzMucG5n/315x250%23c/qt%2FumP.png",
-            "Links": {
-                "Itch.io": "https://holeinonegolfer.itch.io/down-the-mineshaft"
-            }
-        },
-        {
-            "Title": "Phone Operator",
-            "Description": "",
-            "Image": "https://img.itch.zone/aW1nLzYxOTQwNjEucG5n/315x250%23c/BJAx9C.png",
-            "Links": {
-                "Itch.io": "https://holeinonegolfer.itch.io/phone-operator"
-            }
-        },
-        {
             "Title": "Quiz App",
             "Description": "",
             "Image": "https://github.com/HoleInOneStudios/Quiz-Server/blob/main/docs/images/icon.png?raw=true",
@@ -52,6 +36,15 @@
             }
         },
         {
+            "Title": "Google Photo Slideshow",
+            "Description": "",
+            "Image": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow/blob/main/src/Google_Photos_icon_(2020).svg?raw=true",
+            "Links": {
+                "Play Online": "https://holeinonestudios.org/Google-Photos-Slideshow/",
+                "Source": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow"
+            }
+        },
+        {
             "Title": "Around and Round",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzY4MDI4MDQuanBn/315x250%23c/X%2FW770.jpg",
@@ -84,12 +77,19 @@
             }
         },
         {
-            "Title": "Google Photo Slideshow",
+            "Title": "Deeper and Deeper",
             "Description": "",
-            "Image": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow/blob/main/src/Google_Photos_icon_(2020).svg?raw=true",
+            "Image": "https://img.itch.zone/aW1nLzU4MDIzMzMucG5n/315x250%23c/qt%2FumP.png",
             "Links": {
-                "Play Online": "https://holeinonestudios.org/Google-Photos-Slideshow/",
-                "Source": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow"
+                "Itch.io": "https://holeinonegolfer.itch.io/down-the-mineshaft"
+            }
+        },
+        {
+            "Title": "Phone Operator",
+            "Description": "",
+            "Image": "https://img.itch.zone/aW1nLzYxOTQwNjEucG5n/315x250%23c/BJAx9C.png",
+            "Links": {
+                "Itch.io": "https://holeinonegolfer.itch.io/phone-operator"
             }
         }
     ],
