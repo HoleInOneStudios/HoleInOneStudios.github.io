@@ -11,7 +11,7 @@
         {
             "Title": "Fondue Timer",
             "Description": "",
-            "Image": "https://github.com/HoleInOneStudios/Fondue-Timer/blob/main/docs/rsc/icons8-fondue-96.png?raw=true",
+            "Image": "https://github.com/HoleInOneStudios/Fondue-Timer/blob/main/src/rsc/icons8-fondue-96.png?raw=true",
             "Links": {
                 "Play Online": "https://holeinonestudios.org/Fondue-Timer/",
                 "Source Code": "https://github.com/HoleInOneStudios/Fondue-Timer"
@@ -38,7 +38,7 @@
         {
             "Title": "Google Photo Slideshow",
             "Description": "",
-            "Image": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow/blob/main/src/Google_Photos_icon_(2020).svg?raw=true",
+            "Image": "https://raw.githubusercontent.com/HoleInOneStudios/Google-Photos-Slideshow/bb50f0789ef55ddd498f3b20a40ae5b2ec5c1ab1/src/Google_Photos_icon_(2020).svg",
             "Links": {
                 "Play Online": "https://holeinonestudios.org/Google-Photos-Slideshow/",
                 "Source": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow"
