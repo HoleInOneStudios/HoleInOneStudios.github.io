@@ -1,33 +1,32 @@
-{
-    "Projects": [
-        {
-            "Title": "Quiz App",
+[
+    {
+            "Name": "Quiz App",
             "Description": "",
             "Image": "https://github.com/HoleInOneStudios/Quiz-Server/blob/main/docs/images/icon.png?raw=true",
             "Links": {
-                "Source Code": "https://github.com/HoleInOneStudios/Quiz-Server"
+                "Source Code": "https:/github.com/HoleInOneStudios/Quiz-Server"
             }
         },
         {
-            "Title": "Fondue Timer",
+            "Name": "Fondue Timer",
             "Description": "",
             "Image": "https://github.com/HoleInOneStudios/Fondue-Timer/blob/main/src/rsc/icons8-fondue-96.png?raw=true",
             "Links": {
-                "Play Online": "https://holeinonestudios.org/Fondue-Timer/",
-                "Source Code": "https://github.com/HoleInOneStudios/Fondue-Timer"
+                "Play Online": "https:/holeinonestudios.org/Fondue-Timer/",
+                "Source Code": "https:/github.com/HoleInOneStudios/Fondue-Timer"
             }
         },
         {
-            "Title": "Marching Band Simulator",
+            "Name": "Marching Band Simulator",
             "Description": "",
             "Image": "https://github.com/HoleInOneStudios/MBS-Web/blob/main/docs/image/android-chrome-512x512.png?raw=true",
             "Links": {
-                "Play Online": "https://holeinonestudios.org/MBS-Web/",
-                "Source Code": "https://github.com/HoleInOneStudios/MBS-Web"
+                "Play Online": "https:/holeinonestudios.org/MBS-Web/",
+                "Source Code": "https:/github.com/HoleInOneStudios/MBS-Web"
             }
         },
         {
-            "Title": "Virtual Card",
+            "Name": "Virtual Card",
             "Description": "",
             "Image": "",
             "Links": {
@@ -36,7 +35,7 @@
             }
         },
         {
-            "Title": "Google Photo Slideshow",
+            "Name": "Google Photo Slideshow",
             "Description": "",
             "Image": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow/blob/main/src/Google_Photos_icon_(2020).svg",
             "Links": {
@@ -45,7 +44,7 @@
             }
         },
         {
-            "Title": "Around and Round",
+            "Name": "Around and Round",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzY4MDI4MDQuanBn/315x250%23c/X%2FW770.jpg",
             "Links": {
@@ -53,7 +52,7 @@
             }
         },
         {
-            "Title": "Dice Casino",
+            "Name": "Dice Casino",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzk0NjgwNTYucG5n/315x250%23c/%2Fsbs1H.png",
             "Links": {
@@ -61,7 +60,7 @@
             }
         },
         {
-            "Title": "Submarine Ocean Cleanup",
+            "Name": "Submarine Ocean Cleanup",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzc0MTk3NzYucG5n/315x250%23c/P9X7Es.png",
             "Links": {
@@ -69,7 +68,7 @@
             }
         },
         {
-            "Title": "Flappy Porg",
+            "Name": "Flappy Porg",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzU3ODA2NzQucG5n/105x83%23/9Nv0xV.png",
             "Links": {
@@ -77,7 +76,7 @@
             }
         },
         {
-            "Title": "Deeper and Deeper",
+            "Name": "Deeper and Deeper",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzU4MDIzMzMucG5n/315x250%23c/qt%2FumP.png",
             "Links": {
@@ -85,7 +84,7 @@
             }
         },
         {
-            "Title": "Phone Operator",
+            "Name": "Phone Operator",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzYxOTQwNjEucG5n/315x250%23c/BJAx9C.png",
             "Links": {
@@ -93,7 +92,7 @@
             }
         },
         {
-            "Title": "Corrupt Space Defender",
+            "Name": "Corrupt Space Defender",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzEyNjk3NTUxLnBuZw==/360x286%23c/oKrG7V.png",
             "Links": {
@@ -102,10 +101,4 @@
                 "Source Code": "https://github.com/HoleInOneStudios/Corrupt-Space-Defender"
             }
         }
-    ],
-    "Socials": {
-        "Itch.io": "https://holeinonegolfer.itch.io/",
-        "GitHub": "https://github.com/HoleInOneStudios",
-        "E-Mail": "hello@holeinonestudios.org"
-    }
-}
+]
