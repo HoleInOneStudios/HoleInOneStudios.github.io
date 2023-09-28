@@ -9,7 +9,7 @@ document.body.onload = async () => {
 
   for (let project of project_data) {
     projects.push(
-      await create_project_tile(
+      create_project_tile(
         project.Name,
         project.Description,
         project.Image,
@@ -17,23 +17,19 @@ document.body.onload = async () => {
       )
     );
   }
-  console.log(projects);
 
   document.getElementsByTagName("main")[0].innerHTML = projects.join("");
 };
 
-async function create_project_tile(name, description, image, links) {
+function create_project_tile(name, description, image, links) {
   let out = "";
 
-  await fetch(image)
-    .then((response) => {
-      if (response.ok) {
-        out += `<div class="container" style="background-image: url("${image}") >`;
-      }
-    })
-    .catch((error) => {
-      out += `<div class="container">`;
-    });
+  out += '<div class="container"';
+
+  if (image) out += ` style="background-image: url(${image})"`;
+
+  out += ">";
+
   out += "<article>";
   out += `<h2>${name}</h2>`;
   out += `<p>${description}</p>`;
