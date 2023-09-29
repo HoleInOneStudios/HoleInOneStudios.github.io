@@ -1,7 +1,7 @@
 let project_data;
 
 document.body.onload = async () => {
-  project_data = await fetch("./Project.json")
+  project_data = await fetch("../data/Project.json")
     .then((response) => response.json())
     .then((data) => data);
 
