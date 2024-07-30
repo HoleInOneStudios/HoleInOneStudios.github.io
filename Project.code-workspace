@@ -30,7 +30,6 @@
     },
     "launch": {
         "configurations": [
- "configurations": [
             {
                 "name": "Launch Chrome",
                 "request": "launch",
