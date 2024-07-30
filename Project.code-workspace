@@ -1,16 +1,20 @@
 {
     "folders": [
         {
-            "path": "."
+            "path": ".",
+            "name": "Root"
         },
         {
-            "path": "src"
+            "path": "src",
+            "name": "Source Code"
         },
         {
-            "path": "docs"
+            "path": "docs",
+            "name": "Documentation"
         },
         {
-            "path": ".github"
+            "path": ".github",
+            "name": "GitHub Configurations"
         }
     ],
     "settings": {
@@ -25,18 +29,7 @@
         "tasks": []
     },
     "launch": {
-        "configurations": [
-            {
-                "name": "Launch Chrome",
-                "request": "launch",
-                "type": "chrome",
-                "url": "http://127.0.0.1:3000",
-                "webRoot": "${workspaceFolder}/src",
-                "runtimeArgs": [
-                    "--disable-web-security",
-                ]
-            }
-        ],
+        "configurations": [],
         "compounds": []
     }
 }
