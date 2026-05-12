@@ -26,24 +26,6 @@
             }
         },
         {
-            "Name": "Virtual Card",
-            "Description": "",
-            "Image": "",
-            "Links": {
-                "Play Online": "https://www.holeinonestudios.org/Virtual-Card",
-                "Source Code": "https://github.com/HoleInOneStudios/Virtual-Card"
-            }
-        },
-        {
-            "Name": "Google Photo Slideshow",
-            "Description": "",
-            "Image": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow/blob/main/src/Google_Photos_icon_(2020).svg",
-            "Links": {
-                "Play Online": "https://holeinonestudios.org/Google-Photos-Slideshow/",
-                "Source": "https://github.com/HoleInOneStudios/Google-Photos-Slideshow"
-            }
-        },
-        {
             "Name": "Around and Round",
             "Description": "",
             "Image": "https://img.itch.zone/aW1nLzY4MDI4MDQuanBn/315x250%23c/X%2FW770.jpg",
